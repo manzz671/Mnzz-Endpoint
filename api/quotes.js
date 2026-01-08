@@ -78,8 +78,8 @@ function quotes() {
 export default function response(
     req,
     res,
-    statusCode = 200,
-    creator = "Unknown"
+    statusCode,
+    creator
 ) {
     const data = {
         meta: {
