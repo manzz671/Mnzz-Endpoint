@@ -75,7 +75,7 @@ function quotes() {
     return allQuotes[Math.floor(Math.random() * allQuotes.length)];
 }
 
-export default function response(
+export default function handler(
     req,
     res,
     statusCode,
