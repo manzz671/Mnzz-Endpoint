@@ -8,5 +8,5 @@ app.get("/", (req, res) => {
 app.get("/api", (req, res) => {
      response(req, res, 200, "Manzz")
 })
-
+export default app;
 
